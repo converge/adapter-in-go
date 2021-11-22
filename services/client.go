@@ -7,7 +7,7 @@ import (
 
 type Client struct {}
 
-func (c *Client) InsertSquareUsbInComputer(com ports.Computer) {
+func (c *Client) InsertSquareUsbInComputer(com ports.ComputerInterface) {
 	fmt.Println("Client inserts Lightning connector into computer.")
 	com.InsertInSquarePort()
 }

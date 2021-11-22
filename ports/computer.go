@@ -1,5 +1,5 @@
 package ports
 
-type Computer interface {
+type ComputerInterface interface {
 	InsertInSquarePort()
 }
